@@ -1,0 +1,385 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  float: right;
+  margin-top: -100px;
+}
+
+.image-down {
+  float: right;
+  margin-right: -40px;
+  margin-top: -37px;
+}
+.image-rotate {
+  transform: rotate(180deg);
+  float: left;
+  margin-left: -40px;
+  margin-top: -37px;
+}
+
+.image-rotate-down {
+  transform: rotate(180deg);
+  float: left;
+  margin-left: -40px;
+  margin-top: -37px;
+}
+
+header {
+  margin-top: 100px;
+  background-color: rgb(223, 28, 197);
+  color: white;
+  padding: 5px;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 15px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.dotted {
+  border-bottom: 3px dashed rgb(223, 28, 197);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+}
+
+.sub-heading1 {
+  background-color: rgb(223, 28, 197);
+  color: #fff;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 10px;
+}
+
+.sub-heading2 {
+  background-color: rgb(223, 28, 197);
+  color: #fff;
+  margin-left: 43%;
+  margin-right: 43%;
+  border-radius: 10px;
+}
+
+.sub-heading3 {
+  background-color: rgb(223, 28, 197);
+  color: #fff;
+  margin-left: 41%;
+  margin-right: 41%;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.about {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+main h2 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.team-member {
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member span {
+  display: block;
+  font-size: smaller;
+  margin-top: 0.5rem;
+}
+
+.pink {
+  color: rgb(223, 28, 197);
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .image {
+    float: right;
+    margin-top: -100px;
+    margin-right: -25px;
+  }
+
+  .image-down {
+    float: right;
+    margin-right: -42px;
+    margin-top: -90px;
+  }
+
+  .image-rotate {
+    transform: rotate(180deg);
+    float: left;
+    margin-left: -20px;
+    margin-top: -90px;
+  }
+  .image-rotate-down {
+    transform: rotate(180deg);
+    float: left;
+    margin-left: -20px;
+    margin-top: -66px;
+  }
+
+  header {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .dotted {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .sub-heading1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .sub-heading2 {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .sub-heading3 {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  .center {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
+  }
+
+  .team-member {
+    margin-bottom: 0.5rem;
+  }
+
+  .team-member img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .team-member span {
+    font-size: smaller;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .image {
+    float: right;
+    margin-top: -100px;
+  }
+
+  .image-down {
+    float: right;
+    margin-right: -42px;
+    margin-top: -90px;
+  }
+
+  .image-rotate {
+    transform: rotate(180deg);
+    float: left;
+    margin-left: -20px;
+    margin-top: -90px;
+  }
+  .image-rotate-down {
+    transform: rotate(180deg);
+    float: left;
+    margin-left: -20px;
+    margin-top: -66px;
+  }
+
+  header {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+
+  .dotted {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .sub-heading1 {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .sub-heading2 {
+    margin-left: 37%;
+    margin-right: 37%;
+  }
+  .sub-heading3 {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+
+  .center {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
+  }
+
+  .team-member {
+    margin-bottom: 0.5rem;
+  }
+
+  .team-member img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .team-member span {
+    font-size: smaller;
+  }
+}
+
+/* For desktops: */
+@media only screen and (min-width: 1025px) {
+  .image {
+    float: right;
+    margin-top: -100px;
+  }
+
+  .image-down {
+    float: right;
+    margin-right: -40px;
+    margin-top: -37px;
+  }
+
+  .image-rotate {
+    float: left;
+    margin-left: -40px;
+    margin-top: -37px;
+  }
+
+  .image-rotate-down {
+    transform: rotate(180deg);
+    float: left;
+    margin-left: -33px;
+    margin-top: -20px;
+  }
+
+  header {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  .dotted {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .sub-heading1 {
+    margin-left: 36%;
+    margin-right: 36%;
+  }
+
+  .sub-heading2 {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  .sub-heading3 {
+    margin-left: 38%;
+    margin-right: 38%;
+  }
+
+  .center {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .team-member {
+    margin-bottom: 1rem;
+  }
+
+  .team-member img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .team-member span {
+    font-size: smaller;
+  }
+}
